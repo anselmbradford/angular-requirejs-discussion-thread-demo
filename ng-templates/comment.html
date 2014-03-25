@@ -1,0 +1,17 @@
+<article class="comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments" >
+    <section class="comment-content">
+        <header>
+            <i class="fa fa-comment-o"></i>
+            <p class="published" ng-bind-html="comment.posted"></p>
+            <p class="author" ng-bind-html="comment.authorHtmlFull"></p>
+        </header>
+        <section class="posttext" ng-bind-html="comment.posthtml">
+
+        </section>
+
+    </section>
+
+    <footer class="comments" ng-repeat="child in comment.responses">
+        <tree comment="child"><tree>
+    </footer>
+</article>
