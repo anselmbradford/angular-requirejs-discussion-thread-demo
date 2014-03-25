@@ -41,11 +41,19 @@
              scripts/main.js after require.js loads. -->
         <script data-main="js/main" src="js/vendor/bower_components/requirejs/require.js"></script>
 
+        <style type="text/css">
+            /*
+              Hide template elements till angular.js has loaded.
+             */
+            [ng\:cloak], [ng-cloak], .ng-cloak {
+              display: none !important;
+            }
+        </style>
     </head>
     <body>
 
         <!-- Add your site or application content here -->
-        <section id="content">
+        <section id="content" ng-cloak class="ng-cloak">
 
             <section id="topics" data-ng-controller="DiscussionController">
 
