@@ -1,0 +1,39 @@
+$default_duration: 1000ms;
+
+// setting vertical typography rhythm
+
+// The base font size
+$base-font-size: 18px;
+// Base line height
+$base-line-height: 30px;
+// Rhythm unit (Compass vertical rhythm)
+$rhythm-unit: "rem";
+
+$base-font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-weight: 400;
+$base-font-color: #303033;
+
+
+// x-tiny
+$font-size-80: 10px;
+$font-leading-80: 0.75;
+
+// tiny
+$font-size-90: 14px;
+$font-leading-90: 0.75;
+
+// baseline
+$font-size-100: 18px;
+$font-leading-100: 1;
+
+// medium
+$font-size-110: 24px;
+$font-leading-110: 1.25;
+
+// large
+$font-size-120: 32px;
+$font-leading-120: 1.25;
+
+// x-large
+$font-size-130: 43px;
+$font-leading-130: 1.5;

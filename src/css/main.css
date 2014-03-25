@@ -1,0 +1,263 @@
+/* line 17, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 61, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 112.5%; }
+
+/* line 64, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 18px;
+  line-height: 1.66667em; }
+
+/* line 4, ../sass/_base.scss */
+body {
+  background: rgba(0, 0, 100, 0.05);
+  background: #fff;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 10, ../sass/_base.scss */
+h1 {
+  font-size: 2.38889em;
+  line-height: 1.39535em; }
+
+/* line 19, ../sass/_base.scss */
+i {
+  font-style: italic; }
+
+/* line 24, ../sass/_base.scss */
+b {
+  font-weight: 400; }
+
+/* line 29, ../sass/_base.scss */
+#topics {
+  margin-bottom: 20px; }
+
+/* line 34, ../sass/_base.scss */
+.topic {
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px; }
+  /* line 39, ../sass/_base.scss */
+  .topic h1 {
+    padding-bottom: 10px; }
+  /* line 44, ../sass/_base.scss */
+  .topic header {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px; }
+    /* line 51, ../sass/_base.scss */
+    .topic header > span > a {
+      color: #8282b3;
+      text-decoration: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      display: block; }
+  /* line 64, ../sass/_base.scss */
+  .topic .toggle {
+    width: 200px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+    /* line 69, ../sass/_base.scss */
+    .topic .toggle a {
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      width: 190px;
+      text-decoration: none;
+      padding: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(0, 0, 0, 0);
+      color: #8282b3; }
+      /* line 79, ../sass/_base.scss */
+      .topic .toggle a:hover {
+        border: 1px solid rgba(0, 0, 0, 0.5); }
+      /* line 84, ../sass/_base.scss */
+      .topic .toggle a:active {
+        color: red; }
+  /* line 91, ../sass/_base.scss */
+  .topic header:hover .toggle a {
+    border: 1px solid rgba(0, 0, 0, 0.5); }
+  /* line 96, ../sass/_base.scss */
+  .topic .jump-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 0.77778em;
+    line-height: 2.14286em; }
+    /* line 105, ../sass/_base.scss */
+    .topic .jump-link a {
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      zoom: 1;
+      *display: inline;
+      text-decoration: none;
+      padding: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(0, 0, 0, 0);
+      color: #8282b3; }
+      /* line 114, ../sass/_base.scss */
+      .topic .jump-link a:hover {
+        border: 1px solid rgba(0, 0, 0, 0.5); }
+      /* line 119, ../sass/_base.scss */
+      .topic .jump-link a:active {
+        color: red; }
+    /* line 125, ../sass/_base.scss */
+    .topic .jump-link span {
+      color: rgba(0, 0, 0, 0.5); }
+  /* line 131, ../sass/_base.scss */
+  .topic .comment-count {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+
+/* line 138, ../sass/_base.scss */
+.comments {
+  position: relative; }
+
+/* line 143, ../sass/_base.scss */
+.fa-comments {
+  color: rgba(0, 0, 0, 0.1); }
+
+/* line 148, ../sass/_base.scss */
+.comment .comment {
+  margin-left: 15px; }
+
+/* line 153, ../sass/_base.scss */
+footer {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 100, 0.05); }
+
+/* line 161, ../sass/_base.scss */
+.comment {
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 100, 0.05);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(0, 0, 100, 0.02)), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 100, 0.02) 0%, #ffffff 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 100, 0.02) 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 100, 0.02) 0%, #ffffff 100%);
+  background-image: linear-gradient(bottom, rgba(0, 0, 100, 0.02) 0%, #ffffff 100%); }
+  /* line 168, ../sass/_base.scss */
+  .comment .comment-content {
+    background: #fff;
+    border-right: 1px solid rgba(0, 0, 100, 0.05);
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 100, 0.05);
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 100, 0.05);
+    box-shadow: 0px 0px 2px rgba(0, 0, 100, 0.05);
+    padding: 20px; }
+  /* line 176, ../sass/_base.scss */
+  .comment .fa-comment-o {
+    color: rgba(0, 0, 0, 0.5); }
+  /* line 181, ../sass/_base.scss */
+  .comment .published {
+    font-size: 0.55556em;
+    line-height: 3em;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    color: rgba(0, 0, 0, 0.5); }
+  /* line 188, ../sass/_base.scss */
+  .comment .author {
+    font-size: 0.77778em;
+    line-height: 2.14286em; }
+    /* line 192, ../sass/_base.scss */
+    .comment .author span {
+      font-style: italic; }
+    /* line 196, ../sass/_base.scss */
+    .comment .author .anonymous {
+      color: rgba(255, 0, 0, 0.5); }
+  /* line 202, ../sass/_base.scss */
+  .comment .posttext {
+    padding-left: 20px;
+    padding-right: 20px; }
+  /* line 208, ../sass/_base.scss */
+  .comment p {
+    display: block;
+    margin-bottom: 5px; }
+  /* line 214, ../sass/_base.scss */
+  .comment p:last-child {
+    margin-bottom: 0px; }
+  /* line 219, ../sass/_base.scss */
+  .comment a {
+    text-decoration: underline;
+    color: #8282b3;
+    cursor: pointer;
+    content: "";
+    position: relative; }
+  /* line 227, ../sass/_base.scss */
+  .comment a:not([href]):hover {
+    cursor: not-allowed; }

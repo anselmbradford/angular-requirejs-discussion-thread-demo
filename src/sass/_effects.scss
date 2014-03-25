@@ -1,0 +1,47 @@
+.flip
+{
+    @include rotateY(180deg);
+    @include transition(transform $default_duration);
+    @include backface-visibility( hidden );
+}
+
+.unflip
+{
+    @include rotateY(0deg);
+    @include transition(transform $default_duration);
+    @include backface-visibility( hidden );
+}
+
+.blur
+{
+    @include filter(blur(4px));
+    @include transition(filter $default_duration);
+}
+
+.unblur
+{
+    @include filter(blur(0px));
+    @include transition(filter $default_duration);
+}
+
+.slide-left-out
+{
+    z-index:-1 !important;
+    margin-left: -9999px !important;
+    position:absolute !important;
+
+    -webkit-transition: margin-left $default_duration, z-index $default_duration;
+    -moz-transition: margin-left $default_duration, z-index $default_duration;
+    transition: margin-left $default_duration, z-index $default_duration;
+}
+
+.slide-left-in
+{
+    z-index:9998 !important;
+    margin-left: 0px !important;
+    position:absolute !important;
+
+    -webkit-transition: margin-left $default_duration, z-index $default_duration;
+    -moz-transition: margin-left $default_duration, z-index $default_duration;
+    transition: margin-left $default_duration, z-index $default_duration;
+}
