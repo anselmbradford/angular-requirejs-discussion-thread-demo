@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,46 +19,46 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 61, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 112.5%; }
 
-/* line 64, ../../../../../../../Users/anselmbradford/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 18px;
   line-height: 1.66667em; }
@@ -261,75 +261,3 @@ footer {
   /* line 227, ../sass/_base.scss */
   .comment a:not([href]):hover {
     cursor: not-allowed; }
-
-/* line 2, ../sass/_effects.scss */
-.flip {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  -webkit-transition: -webkit-transform 1000ms;
-  -moz-transition: -moz-transform 1000ms;
-  -o-transition: -o-transform 1000ms;
-  transition: transform 1000ms;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-/* line 9, ../sass/_effects.scss */
-.unflip {
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -webkit-transition: -webkit-transform 1000ms;
-  -moz-transition: -moz-transform 1000ms;
-  -o-transition: -o-transform 1000ms;
-  transition: transform 1000ms;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-/* line 16, ../sass/_effects.scss */
-.blur {
-  -webkit-filter: blur(4px);
-  -moz-filter: blur(4px);
-  filter: blur(4px);
-  -webkit-transition: filter 1000ms;
-  -moz-transition: filter 1000ms;
-  -o-transition: filter 1000ms;
-  transition: filter 1000ms; }
-
-/* line 22, ../sass/_effects.scss */
-.unblur {
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  filter: blur(0px);
-  -webkit-transition: filter 1000ms;
-  -moz-transition: filter 1000ms;
-  -o-transition: filter 1000ms;
-  transition: filter 1000ms; }
-
-/* line 28, ../sass/_effects.scss */
-.slide-left-out {
-  z-index: -1 !important;
-  margin-left: -9999px !important;
-  position: absolute !important;
-  -webkit-transition: margin-left 1000ms, z-index 1000ms;
-  -moz-transition: margin-left 1000ms, z-index 1000ms;
-  transition: margin-left 1000ms, z-index 1000ms; }
-
-/* line 39, ../sass/_effects.scss */
-.slide-left-in {
-  z-index: 9998 !important;
-  margin-left: 0px !important;
-  position: absolute !important;
-  -webkit-transition: margin-left 1000ms, z-index 1000ms;
-  -moz-transition: margin-left 1000ms, z-index 1000ms;
-  transition: margin-left 1000ms, z-index 1000ms; }
